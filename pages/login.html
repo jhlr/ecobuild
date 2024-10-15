@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | EcoBuild</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <!-- JS -->
+    <script src="/assets/js/login.js" defer></script>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img id="logo" src="/assets/images/transparent_logo.png" alt="logo"></a>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <a class="back-btn" href="/index.html">< Voltar</a>
+            <h2>Acesse a sua conta</h2>
+
+            <form>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+
+                <button id="login-btn"><a href="#">Continuar</a></button>
+            </form>
+
+            <div class="alt-btns">
+                <a class="alt-login-btn" href="#"><i class="bi bi-google"></i></a>
+                <a class="alt-login-btn" href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+
+            <p class="create-account-link">Não tem uma conta? <a href="/pages/cadastro.html">Cadastre-se</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos direitos reservados à EcoBuild</p>
+    </footer>
+</body>
+
+</html>
