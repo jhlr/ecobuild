@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro | Ecobuild</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-    
+    <header>
+        <a href="../index.html"><img id="logo" src="../assets/images/transparent_logo.png" alt="logo"></a>
+    </header>
+
+    <main>
+        <div class="register-container">
+            <a class="back-btn" href="../index.html">< Voltar</a>
+            <h2>Criar uma conta</h2>
+
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" class="box" placeholder="Digite o seu nome">
+
+                <label for="surname">Sobrenome</label>
+                <input type="text" name="surname" id="surname" class="box" placeholder="Digite o seu sobrenome">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" class="box" placeholder="Digite o seu e-mail">
+
+                <label for="number">Celular</label>
+                <input type="tel" name="number" id="number" class="box" placeholder="Digite o seu número de celular">
+
+                <label for="cpf">CPF/CNPJ</label>
+                <input type="text" name="cpf" id="cpf" class="box" placeholder="Digite seu cpf">
+
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" class="box" placeholder="Digite a sua senha">
+
+                <button id="register-btn"><a href="#">Cadastrar</a></button>
+            </form>
+
+            <div class="alt-btns">
+                <a class="alt-register-btn" href="#"><i class="bi bi-google"></i></a>
+                <a class="alt-register-btn" href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+
+            <p class="create-account-link">Já possui uma conta? <a href="../pages/login.html">Entrar</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos direitos reservados à EcoBuild</p>
+    </footer>
 </body>
+
 </html>
