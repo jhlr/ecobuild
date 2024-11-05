@@ -1,0 +1,9 @@
+.inline {
+    display: inline-block;
+    float: left;
+}
+
+label {
+    display: block;
+    text-align: left;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anunciar | Ecobuild</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="../assets/css/cadastro.css">
+	<link rel="stylesheet" href="../assets/css/anunciar.css">
+
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+	<header>
+		<a href="../index.html"><img id="logo" src="../assets/images/transparent_logo.png" alt="logo"></a>
+	</header>
+
+	<main>
+		<div class="register-container">
+			<a class="back-btn" href="../index.html">Voltar</a>
+			<h2>Criar anúncio</h2>
+
+			<form>
+				<label for="name">Produto</label>
+				<input type="text" name="name" id="name" class="box" placeholder="">
+
+
+				<label for="condition">Condição</label>
+				<div class="box">
+					<label for="novo">
+						<input type="radio" name="condition" id="novo">
+						&nbsp;&nbsp;
+						Novo
+					</label><br>
+
+					<label for="usado">
+						<input type="radio" name="condition" id="usado">
+						&nbsp;&nbsp;
+						Usado
+					</label><br>
+
+					<label for="sucata">
+						<input type="radio" name="condition" id="sucata">
+						&nbsp;&nbsp;
+						Sucata
+					</label>
+				</div>
+
+				<label for="price">Preço</label>
+				<label for="price" class="box">
+					R$ &nbsp;
+					<input type="number" name="price" id="preco">
+				</label>
+				<label for="trocas" class="box">
+					&nbsp;&nbsp;
+					<input type="checkbox" name="trocas">
+					&nbsp;&nbsp;
+					Aceita ofertas de troca
+				</label>
+
+				<label for="description">Descrição</label>
+				<textarea name="description" id="" class="box"></textarea>
+
+				<label for="image"> Foto </label>
+				<input type="file" name="foto" accept="image/png, image/gif, image/jpeg" class="box" />
+
+				<button id="register-btn"><a href="#">Publicar</a></button>
+			</form>
+		</div>
+	</main>
+
+	<footer>
+		<p>Todos direitos reservados à EcoBuild</p>
+	</footer>
+</body>
+
+</html>
